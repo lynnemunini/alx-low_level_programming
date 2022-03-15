@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "main.h"
 /**
  * main - Function that prints _putchar
@@ -7,13 +6,14 @@
  */
 int main(void)
 {
-	int i;
-	char string[] = '_putchar';
-
-	for (i = 0; i < strlen(string); i++)
-	{
-		putchar(string[i]);
-	}
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
 	return (0);
 }
