@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - Function that prints _putchar
@@ -17,4 +16,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
