@@ -3,7 +3,7 @@
 /**
  * main - Function that prints _putchar
  * Return: 0 value returned if program executes successfully
- */
+*/
 int main(void)
 {
 	putchar('_');
