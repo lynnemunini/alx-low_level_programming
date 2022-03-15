@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
  * main - Function that prints _putchar
  * Return: 0 value returned if program executes successfully
