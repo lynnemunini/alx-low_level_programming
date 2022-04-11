@@ -1,4 +1,4 @@
-#0x0E. C - Structures, typedef
+# 0x0E. C - Structures, typedef
 **Tasks**
 0. Define a new type struct dog with the following elements
 1. Write a function that initialize a variable of type struct dog
