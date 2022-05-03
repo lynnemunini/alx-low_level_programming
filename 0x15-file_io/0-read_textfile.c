@@ -1,4 +1,7 @@
 #include "main.h"
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
 
 /**
  * read_textfile - function that reads a text file and
@@ -12,5 +15,11 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	return(0);
+	fd  = open(filename, O_RDONLY, letters);
+
+	if (fd == -1 || fd == NULL)
+	{
+		return(0);
+	}
+	
 }
